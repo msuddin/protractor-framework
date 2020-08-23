@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="1" tests="2" time="5.425">
+ <testsuite name="protractor demo app for calculator" timestamp="2020-08-24T00:14:33" hostname="localhost" time="5.425" errors="0" tests="2" skipped="0" disabled="0" failures="1">
+  <testcase classname="protractor demo app for calculator" name="adding numbers" time="2.642" />
+  <testcase classname="protractor demo app for calculator" name="adding numbers" time="2.78">
+   <failure type="toEqual" message="Expected &apos;10&apos; to equal &apos;11&apos;."><![CDATA[Error: Failed expectation
+    at UserContext.<anonymous> (/Users/mo/Dropbox/development/javascript/protractor-framework/tests/calculator.js:22:38)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:112:25
+    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1077:7)
+    at ControlFlow.promise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2505:12)
+    at schedulerExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:95:18)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)
+    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2974:25
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>
