@@ -1,3 +1,6 @@
-node_modules/*
-.npm/*
-allure-results/*
+node_modules/
+allure-results/
+tiarget/
+screenshots/
+*.html
+*.xml
