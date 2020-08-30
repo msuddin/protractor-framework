@@ -11,10 +11,7 @@ exports.config = {
 
   // Capabilities to be passed to the webdriver instance.
   capabilities: {
-    'browserName': 'chrome',
-    'chromeOptions': {
-      'args': ['--no-sandbox',  '--headless', '--disable-gpu', '--window-size=800,600']
-    }
+    'browserName': 'chrome'
   },
 
   // Framework to use. Jasmine is recommended.
@@ -22,7 +19,7 @@ exports.config = {
 
   // Spec patterns are relative to the current working directory when
   // protractor is called.
-  specs: ['../tests/calculator.js'],
+  specs: ['../tests/*.js'],
 
   // Options to be passed to Jasmine.
   jasmineNodeOpts: {

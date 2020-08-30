@@ -4,3 +4,4 @@ tiarget/
 screenshots/
 *.html
 *.xml
+.DS_Store
