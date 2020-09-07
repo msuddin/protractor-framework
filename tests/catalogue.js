@@ -70,12 +70,9 @@ describe('fendi catalogue', function(){
 
     it('should be able to see summary list', function(){
         // Given
-        //element(by.css('[href="/viewer"]')).click();
         decoratedModel.selectDecoratedModelSummary();
 
         // Then
-        //browser.sleep(3000);
-        //let itemsOnList = element.all(by.css('[class="name"]'));
         expect(decoratedModel.getListItemNameByNumber(0).getText()).toBe(catalogueItemName);
         expect(decoratedModel.getListItemNameByNumber(1).getText()).toBe(brandItemName);
     });

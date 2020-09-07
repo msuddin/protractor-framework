@@ -2,7 +2,7 @@ let model_tab = function(){
 
     let availableModelNames = element.all(by.css('[class="title"]'));
     let availableModels = element.all(by.css('[class="ModelsList"] li'));
-    let selectModel = element(by.css('[class="Model big"] [class="half-width "]'))
+    let selectModel = element(by.css('[class="Model big"] img:nth-child(2)'))
 
     this.getSelectableModelNameByNumber = function(index){
         return availableModelNames.get(index).getText();

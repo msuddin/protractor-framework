@@ -7,11 +7,12 @@ let header_page = function(){
     
     this.selectBackgroundTab = function(){
         backgroundTab.click();
+        browser.sleep(3000);
     };
 
     this.selectModelsTab = function(){
         modelTab.click();
-        browser.sleep(2000);
+        browser.sleep(3000);
     };
 
     this.selectBrandsTab = function(){
