@@ -13,7 +13,7 @@ let landing_page = function(){
         element(by.id('okta-signin-username')).sendKeys('***');
         element(by.id('okta-signin-password')).sendKeys('***');
         element(by.id('okta-signin-submit')).click();
-        browser.sleep(15000);
+        browser.sleep(5000);
     };
 };
 
